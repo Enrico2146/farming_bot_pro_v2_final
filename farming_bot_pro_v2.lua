@@ -111,3 +111,4 @@ game:GetService("UserInputService").InputBegan:Connect(function(input, gpe)
         log("Pause toggled: " .. tostring(paused))
     end
 end)
+doSmartFarming()
